@@ -1,1 +1,247 @@
-{}
+{
+ "hero": {
+  "title": "File:Egyptian Spices 01.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Egyptian_Spices_01.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Dinapriv\" title=\"User:Dinapriv\">Dina Said </a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "time-2": {
+  "title": "File:Mosaïque nilotique, Praeneste, Italie.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mosa%C3%AFque_nilotique,_Praeneste,_Italie.jpg",
+  "artist": "<div class=\"fn value\">\nUnknown author<span style=\"display: none;\">Unknown author</span></div>",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "time-3": {
+  "title": "File:Cairo - Khan al-Khalili spice market 1994.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cairo_-_Khan_al-Khalili_spice_market_1994.jpg",
+  "artist": "Jon Gudorf Photography",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0"
+ },
+ "time-4": {
+  "title": "File:Cairo, Street Scene (NBY 444066).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Cairo,_Street_Scene_(NBY_444066).jpg",
+  "artist": "Unknown author<span style=\"display: none;\">Unknown author</span>",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "occ-1": {
+  "title": "File:Bg-easter-eggs.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bg-easter-eggs.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ikonact\" title=\"User:Ikonact\">Ikonact</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/"
+ },
+ "occ-2": {
+  "title": "File:أجواء رمضان.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D8%A3%D8%AC%D9%88%D8%A7%D8%A1_%D8%B1%D9%85%D8%B6%D8%A7%D9%86.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Alaazzpov&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Alaazzpov (page does not exist)\">Alaazzpov</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "occ-3": {
+  "title": "File:Traditional eid kahk making.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Traditional_eid_kahk_making.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Hbegzee\" title=\"User:Hbegzee\">Hbegzee</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "occ-4": {
+  "title": "File:Eid al-Adha Mubarak.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eid_al-Adha_Mubarak.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Salma_Elhag_2000&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Salma Elhag 2000 (page does not exist)\">Salma Elhag 2000</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "vid-2": {
+  "title": "File:Molokheya Egypt, 2012.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Molokheya_Egypt,_2012.JPG",
+  "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q105725266\" class=\"extiw\" title=\"d:Q105725266\"><span title=\"Tunisian Wikimedian\">Habib M'henni</span></a></bdi>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "vid-3": {
+  "title": "File:Foul Mohamed Ahmed - foul.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Foul_Mohamed_Ahmed_-_foul.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Marsupium\" title=\"User:Marsupium\">Marsupium</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "kishk": {
+  "title": "File:Kishk.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Kishk.JPG",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Cairocamels\" title=\"User:Cairocamels\">Cairocamels</a> B. Simpson",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0"
+ },
+ "bread": {
+  "title": "File:Bread from a 5th dynasty tomb from Gebelein; Egyptian Museum, Turin.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Bread_from_a_5th_dynasty_tomb_from_Gebelein;_Egyptian_Museum,_Turin.jpg",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/43714545@N06\">Richard Mortel</a>",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "porridge": {
+  "title": "File:Harressa or Harees.jpeg",
+  "page": "https://commons.wikimedia.org/wiki/File:Harressa_or_Harees.jpeg",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Haisameldawi&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Haisameldawi (page does not exist)\">Haisameldawi</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "lentil": {
+  "title": "File:EgFoodLentilSoup.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:EgFoodLentilSoup.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:RolandUnger\" title=\"User:RolandUnger\">Roland Unger</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "fish": {
+  "title": "File:BakedFish.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:BakedFish.jpg",
+  "artist": "Len Rizzi (photographer)",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "seed_bread": {
+  "title": "File:Eish baladi.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Eish_baladi.jpg",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/dustinpsmith/\">dustinpsmith</a>",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "stew": {
+  "title": "File:Nohut yahni.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Nohut_yahni.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:E4024\" class=\"mw-redirect\" title=\"User:E4024\">E4024</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "koshary": {
+  "title": "File:Egyptian food Koshary.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Egyptian_food_Koshary.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Dinapriv\" title=\"User:Dinapriv\">Dina Said </a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "ful": {
+  "title": "File:Ful medames.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Ful_medames.jpg",
+  "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Zachbe\" class=\"extiw\" title=\"en:User:Zachbe\">Zachbe</a> at <a class=\"external text\" data-mw-original-href=\"http://en.wikipedia.org\" href=\"https://en.wikipedia.org\">en.wikipedia</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "molokhia": {
+  "title": "File:Molokheya hi res.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Molokheya_hi_res.JPG",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:%D7%99%D7%95%D7%A1%D7%99_%D7%94%D7%A8%D7%90%D7%A9%D7%95%D7%9F\" class=\"mw-redirect\" title=\"User:יוסי הראשון\">Yosi I</a>",
+  "license": "CC BY 2.5",
+  "license_url": "https://creativecommons.org/licenses/by/2.5"
+ },
+ "taameya": {
+  "title": "File:Egypt falafel.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Egypt_falafel.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mohammed_khaleefa&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mohammed khaleefa (page does not exist)\">Mohammed khaleefa</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "mahshi": {
+  "title": "File:EgyptianMahshyStuffedAubergineTomatoWithRice PhotoByWaelNawara.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:EgyptianMahshyStuffedAubergineTomatoWithRice_PhotoByWaelNawara.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Wnawara&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Wnawara (page does not exist)\">Wael Nawara</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "hawawshi": {
+  "title": "File:Egyptian meatloaf.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Egyptian_meatloaf.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Mkevy&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Mkevy (page does not exist)\">Mkevy</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "feseekh": {
+  "title": "File:Fesikh-Desouk.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Fesikh-Desouk.JPG",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Faris_knight\" class=\"mw-redirect\" title=\"User:Faris knight\">Faris knight</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "om_ali": {
+  "title": "File:Rizbihaleeb.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Rizbihaleeb.JPG",
+  "artist": "<a href=\"https://en.wikipedia.org/wiki/User:Deed89\" class=\"extiw\" title=\"wikipedia:User:Deed89\">Deed89</a> at <a href=\"https://en.wikipedia.org/wiki/\" class=\"extiw\" title=\"wikipedia:\">English Wikipedia</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "basbousa": {
+  "title": "File:Pastucha.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Pastucha.JPG",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Aldousari&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Aldousari (page does not exist)\">Aldousari</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "roz_laban": {
+  "title": "File:Rice pudding cinnamon.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Rice_pudding_cinnamon.jpg",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/51035786238@N01\">Ross Berteig</a> from Monrovia, California, USA",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0"
+ },
+ "mahalabia": {
+  "title": "File:Mhallabiyyeh (Arabic milk pudding).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Mhallabiyyeh_(Arabic_milk_pudding).jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Jktab&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Jktab (page does not exist)\">Jktab</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "kunafa": {
+  "title": "File:Kunafa, Bangalore (2025) 07.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Kunafa,_Bangalore_(2025)_07.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Gpkp\" title=\"User:Gpkp\">Gpkp</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "qatayef": {
+  "title": "File:Qatayef libanais (dessert) à Lyon.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Qatayef_libanais_(dessert)_%C3%A0_Lyon.jpg",
+  "artist": "<bdi><a href=\"https://www.wikidata.org/wiki/Q42790984\" class=\"extiw\" title=\"d:Q42790984\"><span title=\"French computing engineer\">Benoît Prieur</span></a></bdi>",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "kahk": {
+  "title": "File:Ka3ek.JPG",
+  "page": "https://commons.wikimedia.org/wiki/File:Ka3ek.JPG",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Mervat_Salman\" class=\"mw-redirect\" title=\"User:Mervat Salman\">Mervat Salman</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "sobia": {
+  "title": "File:كأس سوبيا.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:%D9%83%D8%A3%D8%B3_%D8%B3%D9%88%D8%A8%D9%8A%D8%A7.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:%D9%85%D9%88%D8%B3%D9%89\" title=\"User:موسى\">موسى</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "karkade": {
+  "title": "File:Chai torsh - Hibiscus tea.png",
+  "page": "https://commons.wikimedia.org/wiki/File:Chai_torsh_-_Hibiscus_tea.png",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:MRG90\" title=\"User:MRG90\">MRG90</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "tamr_hindi": {
+  "title": "File:Tamarind drink.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Tamarind_drink.jpg",
+  "artist": "Togrul Safarov (<a href=\"//commons.wikimedia.org/wiki/User:Brandmeister\" title=\"User:Brandmeister\">User:Brandmeister</a>)",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "sahlab": {
+  "title": "File:Salep drink.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Salep_drink.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:DesignbyNur&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:DesignbyNur (page does not exist)\">DesignbyNur</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ }
+}
