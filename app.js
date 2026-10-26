@@ -262,8 +262,18 @@ const R = {
 function loadImg(img) {
   const key = img.dataset.img;
   const saved = store.get('img_' + key, null);
-  img.onload = () => { img.style.display = 'block'; };
+  // keep the image in layout (lazy images that are display:none never load); fade it in once ready
+  img.style.display = 'block'; img.style.opacity = '0'; img.style.transition = 'opacity .6s ease, transform 1.1s cubic-bezier(.2,.7,.2,1)';
+  img.onload = () => { img.style.opacity = '1'; };
   img.onerror = () => { img.style.display = 'none'; };
+  img.decoding = 'async';
+  const hero = img.classList.contains('hero-bg');
+  if (hero) img.setAttribute('fetchpriority', 'high'); else img.loading = 'lazy';
+  // responsive: a small copy (images/<key>-sm.jpg) for phones and small cards
+  if (!saved) {
+    img.sizes = img.dataset.sizes || (hero ? '100vw' : '(max-width: 760px) 92vw, 36vw');
+    img.srcset = 'images/' + key + '-sm.jpg ' + (hero ? 1080 : 720) + 'w, images/' + key + '.jpg ' + (hero ? 1920 : 1200) + 'w';
+  }
   img.src = saved || ('images/' + key + '.jpg');
 }
 function decorateImages(root) {
@@ -309,7 +319,8 @@ let activeChip = 'all';
 function badgesHTML(r) {
   return '<span class="badge"><i class="fa-regular fa-clock"></i> ' + fmtTime(r.time) + '</span>' +
     '<span class="badge"><i class="fa-solid fa-signal"></i> ' + DIFF[lang][r.diff] + '</span>' +
-    (r.veg ? '<span class="badge veg"><i class="fa-solid fa-seedling"></i> ' + T("نباتي", "Vegetarian") + '</span>' : '');
+    (r.veg ? '<span class="badge veg"><i class="fa-solid fa-seedling"></i> ' + T("نباتي", "Vegetarian") + '</span>' : '') +
+    (['pharaonic', 'greco', 'islamic'].includes(r.cat) ? '<span class="badge" title="' + T("وصفة تاريخية أُعيد تخيّلها للمطبخ المنزلي، وليست نصًا أثريًا حرفيًا", "A historical recipe reimagined for home kitchens, not a literal ancient text") + '"><i class="fa-solid fa-feather-pointed"></i> ' + T("إعادة تخيّل حديثة", "Modern reimagining") + '</span>' : '');
 }
 function cardHTML(id) {
   const r = R[id], t = r[lang], fav = favs.has(id);
@@ -597,8 +608,20 @@ function openQrModal() {
 function closeQrModal() { document.getElementById('qrModal').style.display = 'none'; document.body.style.overflow = ''; }
 
 /* ============ NAV / THEME / LANGUAGE ============ */
-function toggleMenu() { document.getElementById('navMenu').classList.toggle('open'); }
-document.querySelectorAll('#navMenu a').forEach(a => a.addEventListener('click', () => document.getElementById('navMenu').classList.remove('open')));
+function toggleMenu(force) {
+  const m = document.getElementById('navMenu'), b = document.getElementById('menuBtn'), sc = document.getElementById('navScrim');
+  const open = typeof force === 'boolean' ? force : !m.classList.contains('open');
+  m.classList.toggle('open', open);
+  if (sc) sc.classList.toggle('show', open);
+  if (b) { b.setAttribute('aria-expanded', open); b.innerHTML = '<i class="fa-solid ' + (open ? 'fa-xmark' : 'fa-bars') + '"></i>'; }
+}
+document.querySelectorAll('#navMenu a').forEach(a => a.addEventListener('click', () => toggleMenu(false)));
+document.addEventListener('keydown', e => { if (e.key === 'Escape') toggleMenu(false); });
+function shareSite() {
+  const url = location.protocol.startsWith('http') ? location.href.split('#')[0].replace(/[^\/]*$/, '') : '';
+  const txt = T('نِبِت | NEBET — من قلب مصر… تبدأ الحكاية', 'NEBET | نِبِت — From the heart of Egypt, the story begins') + (url ? '\n' + url : '');
+  window.open('https://wa.me/?text=' + encodeURIComponent(txt), '_blank');
+}
 
 function currentTheme() {
   const t = document.documentElement.getAttribute('data-theme');
@@ -661,6 +684,9 @@ if ('serviceWorker' in navigator) {
   applyThemeIcon();
   if (EDIT) document.body.classList.add('edit-mode');
   decorateImages();
+  // map.html#region=alex opens that region on the food map
+  const rg = location.hash.match(/region=(\w+)/);
+  if (rg && typeof REGIONS !== 'undefined' && REGIONS.some(x => x.id === rg[1])) activeRegion = rg[1];
   setLanguage(store.get('lang', 'ar'));
   // recipes.html#recipe=koshary opens that recipe; recipes.html#group-dessert jumps to a group
   const h = decodeURIComponent(location.hash.slice(1));
