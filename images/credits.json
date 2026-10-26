@@ -411,5 +411,19 @@
   "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/59081381@N03\">Warren LeMay</a> from Chicago, IL, United States",
   "license": "CC0",
   "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en"
+ },
+ "story-fanous": {
+  "title": "File:Fanous Ramadan.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Fanous_Ramadan.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:Ibrahim.ID\" title=\"User:Ibrahim.ID\">Ibrahim.ID</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "her-agri": {
+  "title": "File:Maler der Grabkammer des Sennudem 001.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Maler_der_Grabkammer_des_Sennudem_001.jpg",
+  "artist": "Painter of the burial chamber of Sennedjem",
+  "license": "Public domain",
+  "license_url": ""
  }
 }
