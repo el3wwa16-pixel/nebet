@@ -12,9 +12,10 @@ jobs:
       - uses: actions/checkout@v4
       - run: pip install pillow
       - run: python3 tools/fetch.py
+      - run: bash tools/fonts.sh
       - run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add -A candidates images
+          git add -A candidates images fonts
           git commit -m "images update [skip ci]" || echo nothing
           git push
