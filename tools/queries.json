@@ -175,5 +175,86 @@
  "sahlab": [
   "Sahlab drink",
   "Salep drink"
+ ],
+ "hero-temple": [
+  "Karnak hypostyle hall",
+  "Great Hypostyle Hall Karnak columns"
+ ],
+ "cat-crafts": [
+  "Khayamiya",
+  "Street of the Tentmakers Cairo"
+ ],
+ "cat-customs": [
+  "Siwa embroidery",
+  "Siwa traditional dress"
+ ],
+ "cat-myth": [
+  "Philae temple",
+  "Temple of Isis Philae"
+ ],
+ "cat-regional": [
+  "Felucca Aswan",
+  "felucca Nile"
+ ],
+ "story-khayamiya": [
+  "Khayamiya applique",
+  "tentmakers Cairo applique"
+ ],
+ "story-bread": [
+  "aish baladi bakery",
+  "Egyptian bakery bread"
+ ],
+ "story-fanous": [
+  "fanous lantern workshop",
+  "Ramadan lanterns Egypt shop"
+ ],
+ "her-agri": [
+  "Tomb of Sennedjem",
+  "Sennedjem field of reeds"
+ ],
+ "her-food": [
+  "ancient Egyptian offering table",
+  "offering table stela Egypt bread"
+ ],
+ "her-belief": [
+  "Osiris bed",
+  "corn mummy Osiris",
+  "grain Osiris"
+ ],
+ "reg-alex": [
+  "Citadel of Qaitbay",
+  "Qaitbay citadel Alexandria"
+ ],
+ "reg-delta": [
+  "Rosetta Egypt houses",
+  "Nile Delta farm"
+ ],
+ "reg-upper": [
+  "Luxor Temple",
+  "Luxor temple colonnade"
+ ],
+ "reg-nubia": [
+  "Gharb Soheil",
+  "Nubian village Aswan"
+ ],
+ "reg-sinai": [
+  "Saint Catherine's Monastery",
+  "Mount Sinai"
+ ],
+ "craft-pottery": [
+  "Tunis village Fayoum pottery",
+  "Fustat pottery"
+ ],
+ "craft-weaving": [
+  "Akhmim weaving",
+  "Egyptian hand loom weaving"
+ ],
+ "cust-sinai": [
+  "Bedouin embroidery Sinai",
+  "Sinai bedouin dress"
+ ],
+ "cust-nubian": [
+  "Nubian house painted",
+  "Nubian house door Aswan"
  ]
 }

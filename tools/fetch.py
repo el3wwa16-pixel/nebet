@@ -30,7 +30,7 @@ def search(q, n=12):
 def save(data, path, maxw):
     im = Image.open(io.BytesIO(data)).convert("RGB")
     if im.width > maxw: im = im.resize((maxw, round(im.height * maxw / im.width)), Image.LANCZOS)
-    im.save(path, "JPEG", quality=80, optimize=True, progressive=True)
+    im.save(path, "JPEG", quality=78, optimize=True, progressive=True)
 Q = json.load(open("tools/queries.json", encoding="utf-8"))
 P = json.load(open("tools/picks.json", encoding="utf-8"))
 os.makedirs("candidates", exist_ok=True); os.makedirs("images", exist_ok=True)
@@ -40,8 +40,9 @@ for key, qs in Q.items():
     if key in P:
         title = P[key]
         if credits.get(key, {}).get("title") == title and os.path.exists(f"images/{key}.jpg"): continue
-        pg = info([title], 1200)[0]; ii = pg["imageinfo"][0]; m = ii.get("extmetadata", {})
-        save(get(ii["thumburl"]), f"images/{key}.jpg", 1200)
+        W = 1920 if key.startswith("hero") else 1200
+        pg = info([title], W)[0]; ii = pg["imageinfo"][0]; m = ii.get("extmetadata", {})
+        save(get(ii["thumburl"]), f"images/{key}.jpg", W)
         val = lambda k: (m.get(k) or {}).get("value", "")
         credits[key] = {"title": title, "page": ii.get("descriptionurl"), "artist": val("Artist"), "license": val("LicenseShortName"), "license_url": val("LicenseUrl")}
         print("saved", key, title); continue
