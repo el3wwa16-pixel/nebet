@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>مذاق مصر | حكاية مصر في كل لقمة - Taste of Egypt</title>
+<meta name="description" content="مذاق مصر: رحلة تفاعلية في تاريخ المطبخ المصري، فيها 30 وصفة بالمقادير، وخريطة أكلات المناطق، وكويز وقاموس. Taste of Egypt: an interactive journey through Egyptian food history.">
+<script>try{var l=JSON.parse(localStorage.getItem('lang')||'"ar"');document.documentElement.lang=l;document.documentElement.dir=l==='ar'?'rtl':'ltr';var t=JSON.parse(localStorage.getItem('theme')||'null');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}</script>
+<meta name="theme-color" content="#0B2B1B">
+<link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+<!-- Link preview on WhatsApp / Facebook / X.
+     After you upload the site, replace "images/og-cover.jpg" below with the full link,
+     e.g. https://your-site.netlify.app/images/og-cover.jpg -->
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="مذاق مصر | Taste of Egypt">
+<meta property="og:title" content="مذاق مصر | حكاية مصر في كل لقمة - Taste of Egypt">
+<meta property="og:description" content="رحلة تفاعلية في تاريخ المطبخ المصري: 30 وصفة، خريطة أكلات المناطق، كويز وقاموس.">
+<meta property="og:image" content="images/og-cover.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ar_EG">
+<meta property="og:locale:alternate" content="en_US">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="مذاق مصر | Taste of Egypt">
+<meta name="twitter:description" content="رحلة تفاعلية في تاريخ المطبخ المصري ووصفاته.">
+<meta name="twitter:image" content="images/og-cover.jpg">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebSite","name":"مذاق مصر | Taste of Egypt","inLanguage":["ar","en"],"description":"An interactive bilingual encyclopedia of Egyptian food history and recipes."}
+</script>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Cairo:wght@300;400;600;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav>
+  <div class="logo"><a href="index.html"><span class="ar">مذاق مصر</span><span class="en">Taste of Egypt</span> <i class="fa-solid fa-wheat-awn"></i></a></div>
+  <ul id="navMenu">
+    <li><a href="index.html" class="active" aria-current="page"><span class="ar">الرئيسية</span><span class="en">Home</span></a></li>
+    <li><a href="history.html"><span class="ar">التاريخ</span><span class="en">History</span></a></li>
+    <li><a href="rare.html"><span class="ar">الوصفات النادرة</span><span class="en">Rare Recipes</span></a></li>
+    <li><a href="recipes.html"><span class="ar">موسوعة الوصفات</span><span class="en">Recipe Encyclopedia</span></a></li>
+    <li><a href="map.html"><span class="ar">خريطة الأكلات</span><span class="en">Food Map</span></a></li>
+    <li><a href="occasions.html"><span class="ar">المناسبات والأعياد</span><span class="en">Occasions & Holidays</span></a></li>
+    <li><a href="videos.html"><span class="ar">وصفات مصورة</span><span class="en">Video Recipes</span></a></li>
+    <li><a href="quiz.html"><span class="ar">الكويز</span><span class="en">Quiz</span></a></li>
+    <li><a href="glossary.html"><span class="ar">القاموس</span><span class="en">Glossary</span></a></li>
+    <li><a href="reviews.html"><span class="ar">تجارب الزوار</span><span class="en">Visitor Experiences</span></a></li>
+    <li><a href="about.html"><span class="ar">عن المشروع</span><span class="en">About</span></a></li>
+  </ul>
+  <div class="nav-tools">
+    <button class="nav-btn" onclick="openQrModal()" title="QR"><i class="fa-solid fa-qrcode"></i> <span class="lbl">QR</span></button>
+    <button class="nav-btn" onclick="toggleTheme()" title="Theme"><i class="fa-solid fa-moon" id="themeIcon"></i></button>
+    <button class="nav-btn" onclick="toggleLanguage()"><i class="fa-solid fa-globe"></i> <span class="lbl"><span class="ar">English</span><span class="en">عربي</span></span></button>
+    <button class="menu-btn" id="menuBtn" aria-label="Menu" onclick="toggleMenu()"><i class="fa-solid fa-bars"></i></button>
+  </div>
+</nav>
+
+<header class="image-container" style="position:relative">
+  <img class="hero-bg" data-img="hero" alt="">
+  <h1><span class="ar">مذاق مصر</span><span class="en">Taste of Egypt</span></h1>
+  <p>
+    <span class="ar">تراث مطرز بخيوط الذهب الأخضر. رحلة بصرية وتفاعلية توثق تاريخ الأكل المصري وتطوره.</span>
+    <span class="en">A heritage embroidered with threads of green gold. A visual and interactive journey through the history and evolution of Egyptian cuisine.</span>
+  </p>
+  <a href="history.html" class="btn-main"><i class="fa-solid fa-compass"></i> <span class="ar">استكشف التراث</span><span class="en">Explore Heritage</span></a>
+</header>
+
+<div class="edit-banner">
+  <i class="fa-solid fa-pen-to-square"></i>
+  <span class="ar">وضع التعديل: الصور اللي بتختارها هنا بتتحفظ في متصفحك إنت بس. عشان تظهر لكل الزوار، حط الصور في فولدر اسمه <b>images</b> جنب الملف، بنفس الاسم المكتوب على كل صورة.</span>
+  <span class="en">Edit mode: images you pick here are saved in your browser only. To show them to every visitor, put the images in a folder named <b>images</b> next to this file, using the name shown on each image.</span>
+</div>
+
+<section id="explore">
+  <h2 class="section-title reveal-zoom"><span class="ar">اكتشف مذاق مصر</span><span class="en">Explore Taste of Egypt</span></h2>
+  <div class="hub-grid"><a class="hub-card reveal-up" href="history.html"><div class="hub-ic"><i class="fa-solid fa-hourglass-half"></i></div><h3><span class="ar">التاريخ</span><span class="en">History</span></h3><p><span class="ar">من خبز الفراعنة لحد عربيات الكشري.</span><span class="en">From Pharaonic bread to koshary carts.</span></p><span class="go"><span class="ar">ادخل ←</span><span class="en">Open →</span></span></a><a class="hub-card reveal-up" href="rare.html"><div class="hub-ic"><i class="fa-solid fa-gem"></i></div><h3><span class="ar">الوصفات النادرة</span><span class="en">Rare Recipes</span></h3><p><span class="ar">الشلولو والسخينة وكشك ألماظ.</span><span class="en">Shalawlaw, sakhina and kishk almaz.</span></p><span class="go"><span class="ar">ادخل ←</span><span class="en">Open →</span></span></a><a class="hub-card reveal-up" href="recipes.html"><div class="hub-ic"><i class="fa-solid fa-book-open"></i></div><h3><span class="ar">موسوعة الوصفات</span><span class="en">Recipe Encyclopedia</span></h3><p><span class="ar">30 وصفة بالمقادير والتايمر والبحث.</span><span class="en">30 recipes with scaling, timers and search.</span></p><span class="go"><span class="ar">ادخل ←</span><span class="en">Open →</span></span></a><a class="hub-card reveal-up" href="map.html"><div class="hub-ic"><i class="fa-solid fa-map-location-dot"></i></div><h3><span class="ar">خريطة الأكلات</span><span class="en">Food Map</span></h3><p><span class="ar">أكلات إسكندرية والصعيد وسيناء والنوبة.</span><span class="en">Dishes of Alexandria, Upper Egypt, Sinai and Nubia.</span></p><span class="go"><span class="ar">ادخل ←</span><span class="en">Open →</span></span></a><a class="hub-card reveal-up" href="occasions.html"><div class="hub-ic"><i class="fa-solid fa-calendar-days"></i></div><h3><span class="ar">المناسبات والأعياد</span><span class="en">Occasions & Holidays</span></h3><p><span class="ar">شم النسيم ورمضان والعيدين.</span><span class="en">Sham Ennessim, Ramadan and the two Eids.</span></p><span class="go"><span class="ar">ادخل ←</span><span class="en">Open →</span></span></a><a class="hub-card reveal-up" href="videos.html"><div class="hub-ic"><i class="fa-solid fa-circle-play"></i></div><h3><span class="ar">وصفات مصورة</span><span class="en">Video Recipes</span></h3><p><span class="ar">الكشري والملوخية والفول في فيديو.</span><span class="en">Koshary, molokhia and ful on video.</span></p><span class="go"><span class="ar">ادخل ←</span><span class="en">Open →</span></span></a><a class="hub-card reveal-up" href="quiz.html"><div class="hub-ic"><i class="fa-solid fa-circle-question"></i></div><h3><span class="ar">الكويز</span><span class="en">Quiz</span></h3><p><span class="ar">اختبر معلوماتك في 8 أسئلة.</span><span class="en">Test yourself in 8 questions.</span></p><span class="go"><span class="ar">ادخل ←</span><span class="en">Open →</span></span></a><a class="hub-card reveal-up" href="glossary.html"><div class="hub-ic"><i class="fa-solid fa-spell-check"></i></div><h3><span class="ar">القاموس</span><span class="en">Glossary</span></h3><p><span class="ar">التقلية والدقة والتدميس وأكتر.</span><span class="en">Taqliya, daqqa, tadmees and more.</span></p><span class="go"><span class="ar">ادخل ←</span><span class="en">Open →</span></span></a><a class="hub-card reveal-up" href="reviews.html"><div class="hub-ic"><i class="fa-solid fa-comments"></i></div><h3><span class="ar">تجارب الزوار</span><span class="en">Visitor Experiences</span></h3><p><span class="ar">آراء الزوار وشاركنا تجربتك.</span><span class="en">Visitor stories, and share yours.</span></p><span class="go"><span class="ar">ادخل ←</span><span class="en">Open →</span></span></a><a class="hub-card reveal-up" href="about.html"><div class="hub-ic"><i class="fa-solid fa-circle-info"></i></div><h3><span class="ar">عن المشروع</span><span class="en">About</span></h3><p><span class="ar">هدف المشروع والمصادر.</span><span class="en">Our goal and sources.</span></p><span class="go"><span class="ar">ادخل ←</span><span class="en">Open →</span></span></a></div>
+</section>
+
+<section id="featured" class="alt">
+  <h2 class="section-title reveal-zoom"><span class="ar">أطباق مختارة</span><span class="en">Featured Dishes</span></h2>
+  <div class="recipes-grid" id="featuredGrid"></div>
+  <div class="center-cta"><a class="btn-main" href="recipes.html"><i class="fa-solid fa-book-open"></i> <span class="ar">شوف الموسوعة كلها</span><span class="en">See the full encyclopedia</span></a></div>
+</section>
+
+<!-- RECIPE MODAL -->
+<div id="recipeModal" class="modal" role="dialog" aria-modal="true">
+  <div class="modal-content">
+    <button class="close no-print" onclick="closeModal()" aria-label="Close">&times;</button>
+    <div class="modal-head">
+      <h2 id="modalTitle"></h2>
+      <div id="modalEra" class="recipe-era"></div>
+      <div class="badges" id="modalBadges"></div>
+    </div>
+    <div class="history-box" id="modalStory"></div>
+    <div class="interactive-controls no-print">
+      <label for="servings"><i class="fa-solid fa-users"></i> <strong><span class="ar">عدد الأشخاص:</span><span class="en">Servings:</span></strong></label>
+      <input type="number" id="servings" min="1" max="50" oninput="renderIngredients()">
+      <span class="spacer"></span>
+      <button class="ctrl-btn" onclick="window.print()"><i class="fa-solid fa-print"></i> <span class="ar">طباعة</span><span class="en">Print</span></button>
+      <button class="ctrl-btn wa" onclick="shareWhatsApp()"><i class="fa-brands fa-whatsapp"></i> <span class="ar">واتساب</span><span class="en">WhatsApp</span></button>
+    </div>
+    <div class="modal-grid">
+      <div class="ingredients-list"><h3><span class="ar">المقادير</span><span class="en">Ingredients</span> <small id="servesNote" style="font-size:.9rem;color:var(--muted)"></small></h3><ul id="modalIngredients"></ul></div>
+      <div class="steps-list"><h3><span class="ar">الخطوات</span><span class="en">Steps</span></h3><ol id="modalSteps"></ol></div>
+    </div>
+  </div>
+</div>
+
+<!-- QR MODAL -->
+<div id="qrModal" class="modal">
+  <div class="modal-content">
+    <button class="close" onclick="closeQrModal()" aria-label="Close">&times;</button>
+    <h2 style="margin-bottom:10px"><i class="fa-solid fa-qrcode"></i> <span class="ar">QR كود الموقع</span><span class="en">Site QR Code</span></h2>
+    <p style="color:var(--muted)"><span class="ar">امسح الكود بموبايلك عشان تفتح الموقع وتشاركه:</span><span class="en">Scan with your phone to open and share the site:</span></p>
+    <div id="qrcode"></div>
+    <p style="font-size:.85rem;color:var(--dark-gold);font-weight:bold;word-break:break-all" id="currentUrlText"></p>
+    <div class="qr-warn" id="qrWarn" style="display:none">
+      <span class="ar"><b>الموقع لسه مش مرفوع على الإنترنت.</b> إنت فاتح الملف من جهازك، فالكود هيشاور على ملف عندك ومش هيفتح على موبايل حد تاني. ارفع الموقع على استضافة (زي GitHub Pages أو Netlify) والكود هيشتغل تلقائي.</span>
+      <span class="en"><b>The site isn't online yet.</b> You opened the file from your computer, so the code would point to a local file other phones can't open. Host the site (e.g. GitHub Pages or Netlify) and the code will work automatically.</span>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <h2><span class="ar">مذاق مصر</span><span class="en">Taste of Egypt</span></h2>
+  <div class="f-links"><a href="history.html"><span class="ar">التاريخ</span><span class="en">History</span></a><a href="rare.html"><span class="ar">الوصفات النادرة</span><span class="en">Rare Recipes</span></a><a href="recipes.html"><span class="ar">موسوعة الوصفات</span><span class="en">Recipe Encyclopedia</span></a><a href="map.html"><span class="ar">خريطة الأكلات</span><span class="en">Food Map</span></a><a href="occasions.html"><span class="ar">المناسبات والأعياد</span><span class="en">Occasions & Holidays</span></a><a href="videos.html"><span class="ar">وصفات مصورة</span><span class="en">Video Recipes</span></a><a href="quiz.html"><span class="ar">الكويز</span><span class="en">Quiz</span></a><a href="glossary.html"><span class="ar">القاموس</span><span class="en">Glossary</span></a><a href="reviews.html"><span class="ar">تجارب الزوار</span><span class="en">Visitor Experiences</span></a><a href="about.html"><span class="ar">عن المشروع</span><span class="en">About</span></a></div>
+  <p><span class="ar">حكاية مصر في كل لقمة &copy; 2026</span><span class="en">Egypt's Story in Every Bite &copy; 2026</span></p>
+</footer>
+
+<button class="to-top" id="toTop" onclick="window.scrollTo({top:0,behavior:'smooth'})" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+
+<script src="https://cdn.jsdelivr.net/npm/qrcodejs@1.0.0/qrcode.min.js" defer></script>
+<script src="app.js" defer></script>
+</body>
+</html>
