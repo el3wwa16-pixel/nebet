@@ -243,5 +243,40 @@
   "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:DesignbyNur&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:DesignbyNur (page does not exist)\">DesignbyNur</a>",
   "license": "CC BY-SA 3.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/3.0"
+ },
+ "time-1": {
+  "title": "File:Agricultural Scenes, Tomb of Nakht (IA mma agricultural scenes tomb of nakht 548438).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Agricultural_Scenes,_Tomb_of_Nakht_(IA_mma_agricultural_scenes_tomb_of_nakht_548438).jpg",
+  "artist": "<div class=\"fn value\">\n<dl><dd>Norman de Garis Davies</dd>\n<dd>Lancelot Crane</dd></dl></div>",
+  "license": "Public domain",
+  "license_url": ""
+ },
+ "vid-1": {
+  "title": "File:Egyptian Koshari.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Egyptian_Koshari.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Basma&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Basma (page does not exist)\">Basma</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "shalwlw": {
+  "title": "File:Starr-130221-1611-Corchorus olitorius-leaves-Waihee-Maui (25112637261).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Starr-130221-1611-Corchorus_olitorius-leaves-Waihee-Maui_(25112637261).jpg",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/97499887@N06\">Forest and Kim Starr</a>",
+  "license": "CC BY 3.0 us",
+  "license_url": "https://creativecommons.org/licenses/by/3.0/us/deed.en"
+ },
+ "sakhina": {
+  "title": "File:Chorba Frik.jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Chorba_Frik.jpg",
+  "artist": "<a href=\"//commons.wikimedia.org/wiki/User:IssamBarhoumi\" title=\"User:IssamBarhoumi\">IssamBarhoumi</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0"
+ },
+ "erk_soos": {
+  "title": "File:Birds and nature (1900) (14568691810).jpg",
+  "page": "https://commons.wikimedia.org/wiki/File:Birds_and_nature_(1900)_(14568691810).jpg",
+  "artist": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/126377022@N07\">Internet Archive Book Images</a>",
+  "license": "No restrictions",
+  "license_url": "https://www.flickr.com/commons/usage/"
  }
 }
