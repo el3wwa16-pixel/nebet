@@ -647,6 +647,7 @@ function setLanguage(l) {
   if (has('glossGrid')) renderGlossary();
   if (has('reviewsGrid')) renderReviews();
   if (has('aboutAuthor')) renderAbout();
+  if (typeof window.renderReader === 'function') window.renderReader();
   if (modal.classList.contains('is-open') && currentId) openModal(currentId);
 }
 function toggleLanguage() { setLanguage(lang === 'ar' ? 'en' : 'ar'); }
